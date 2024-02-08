@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Platform Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #000000;
+            color: #dcdcdc;
+            margin: 0;
+            padding: 0;
+            position: relative;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        header {
+            background-color: #0c4748;
+            color: #ffffff;
+            padding: 15px 0;
+        }
+
+        .btn{
+            outline: none;
+            padding: 10px 15px;
+            border-radius: 20px;
+            font-size: 1rem;
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+        .container {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        h1, h2, h3 {
+            color: #555d64;
+        }
+
+        h3{
+            font-size: 22px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .feature-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .feature-list li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #0c4748;
+            color: #ffffff;
+            padding: 10px 0;
+            position: absolute;
+            top: 100%;
+            width: 100%;
+        }
+
+        @media screen and (max-width:600) {
+            .btn{
+                font-size: .8rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="text-center">
+        <h1 class="text-white">Educational Platform Dashboard</h1>
+        <p>Project Documentation</p>
+        <div class="mode">
+            <div class="btn btn-primary border border-0"  onclick="switchMode()">Light Mode</div>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="introduction">
+            <h2>1. Introduction</h2>
+            <p>The Educational Platform Dashboard is a dynamic web application designed to enhance the learning experience for individuals interested in courses like Java Full Stack Development, Dot Net Full Stack Development, Software Testing, and Python Full Stack Development.</p>
+        </section>
+
+        <section id="objective">
+            <h2>2. Objective</h2>
+            <p>The main goal is to provide users with a website where they can learn different things. It includes a dashboard, resume creation, portfolio management, and might have a payment option in the future.</p>
+        </section>
+
+        <section id="features">
+            <h2>3. Features</h2>
+
+            <h3>3.1 Home Page</h3>
+            <p>Overview of available courses.</p>
+            <p>Benefits of the educational model.</p>
+
+            <h3>3.2 Navigation Bar</h3>
+            <p>Home, About, Services, Dashboard, Courses (dropdown), Contact Us, Signup, Login.</p>
+
+            <h3>3.3 Dashboard</h3>
+            <p>User-specific dashboard after login.</p>
+            <p>Free resume creation with a preview and download option.</p>
+            <p>Portfolio section for user details.</p>
+
+            <h3>3.4 Courses (Dropdown)</h3>
+            <p>Redirects to the login page for the selected course.</p>
+
+            <h3>3.5 Contact Us</h3>
+            <p>Form for user inquiries.</p>
+
+            <h3>3.6 Signup and Login</h3>
+            <p>User authentication for accessing personalized features.</p>
+
+            <h3>3.7 Backend</h3>
+            <p>Java Spring Boot application for backend functionality.</p>
+            <p>MySQL with Hibernate for database management.</p>
+
+            <h3>3.8 Future Integration</h3>
+            <p>Plan for adding a payment gateway.</p>
+
+        </section>
+
+        <section id="technology-stack">
+            <h2>4. Technology Stack</h2>
+            <p>Frontend: HTML, CSS, JavaScript, Bootstrap, JSP.</p>
+            <p>Backend: Java Spring Boot.</p>
+            <p>Database: MySQL with Hibernate.</p>
+        </section>
+
+        <section id="development-steps">
+            <h2>5. Development Steps</h2>
+            <p>A. Design and implement the home page with course overviews.</p>
+            <p>B. Create a responsive navigation bar with essential options.</p>
+            <p>C. Develop individual dashboards for each course using Java Spring Boot.</p>
+            <p>D. Implement a resume creation feature with preview and download options.</p>
+            <p>E. Integrate portfolio management within the dashboard.</p>
+            <p>F. Add contact forms, signup, and login functionalities.</p>
+            <p>G. Develop backend logic for user authentication and data management.</p>
+            <p>H. Plan for future integration of a payment gateway.</p>
+        </section>
+
+        <section id="testing-and-deployment">
+            <h2>6. Testing & Deployment</h2>
+            <p>Thorough testing of all features.</p>
+            <p>Deployment on a hosting platform.</p>
+        </section>
+
+        <section id="outcome">
+            <h2>7. Outcome</h2>
+            <p>A fully functional educational platform with a user-friendly interface.</p>
+            <p>Personalized dashboards and features for resume creation and portfolio management.</p>
+        </section>
+
+        <section id="conclusion">
+            <h2>8. Conclusion</h2>
+            <p>The Educational Platform aims to be a one-stop solution for learners.</p>
+            <p>Offering an organized and feature-rich environment for skill development, resume building, and portfolio management.</p>
+        </section>
+
+    </div>
+
+    <footer class="text-center mt-3">
+        <p>© 2024 Giri's Tech Hub | Designed by Prathamesh Developed by Vishwajeet</p>
+    </footer>
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        let value = 1;
+        function switchMode(){
+            if(value===1){
+                let bdy = document.querySelector('body');
+                bdy.style.backgroundColor = "#fff";
+                bdy.style.color = "#495057";
+                bdy.style.transition = ".5s all"
+                let btn = document.querySelector('.btn');
+                btn.innerHTML = "Dark Mode";
+                btn.style.backgroundColor = "#000";
+                btn.style.color = "#fff";
+                value=0;
+            }
+            else{
+                let bdy = document.querySelector('body');
+                bdy.style.backgroundColor = "#000";
+                bdy.style.color = "#fff";
+                let btn = document.querySelector('.btn');
+                btn.innerHTML = "Light Mode";
+                btn.style.backgroundColor = "#fff";
+                btn.style.color = "#000";
+                value=1;
+            }
+        }
+    </script>
+
+</body>
+
+</html>
